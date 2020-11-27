@@ -25,6 +25,12 @@ public class App
         System.out.println(carReference.maxSpeed);
 
 
+         Car car2 = new Car();
+         car2.make = "Mercedes";
+         car2.model ="CLS";
+         car2.color ="blue";
+
+
 
     }
 }

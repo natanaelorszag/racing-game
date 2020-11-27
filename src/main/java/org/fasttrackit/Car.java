@@ -12,6 +12,8 @@ public class Car {
     boolean damaged;
     int doorCount;
 
+    Engine engine;
+    
 
 
 }
