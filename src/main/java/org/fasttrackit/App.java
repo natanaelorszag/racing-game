@@ -8,7 +8,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Racing Game" );
+        System.out.println( "\uD83D\uDE97 Wellcome to Racing Game \uD83D\uDE97  " );
         Car carReference= new Car();
         carReference.make ="Skoda";
         carReference.model ="Fabia";
