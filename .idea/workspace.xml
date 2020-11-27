@@ -14,8 +14,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3aaba159-fd21-4066-bc31-1cbe7b8510c6" name="Default Changelist" comment="project 1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/fasttrackit/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/fasttrackit/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/fasttrackit/Car.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +55,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.App" />
+      <module name="racing-game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fasttrackit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -64,6 +79,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -73,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606492062551</updated>
-      <workItem from="1606492064773" duration="2216000" />
+      <workItem from="1606492064773" duration="5858000" />
     </task>
     <task id="LOCAL-00001" summary="project 1">
       <created>1606492895656</created>
@@ -82,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606492895656</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="project 1">
+      <created>1606494440299</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606494440299</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,21 +139,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="640" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1606493293880" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1606492375585">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1606500997163">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606492375585" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1606492375584">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606500997163" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1606500997163">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606492375584" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1606492375584">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606500997163" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1606500997163">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606492375584" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1606492375585">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606500997163" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1606500997163">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606492375585" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606500997163" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1606494464351">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606494464351" />
   </component>
 </project>
