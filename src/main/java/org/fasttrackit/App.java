@@ -8,7 +8,10 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "\uD83D\uDE97 Wellcome to Racing Game \uD83D\uDE97  " );
+Game game = new Game();
+game.start();
+
+
         Car carReference= new Car();
         carReference.make ="Skoda";
         carReference.model ="Fabia";
@@ -24,15 +27,18 @@ public class App
        carReference.engine = engine1;
 
        double currentDistance = carReference.accelerate(250, 2);
+        System.out.println("Total Distance before repaire:" + carReference.totalTravelDistance);
+        Mechanic mechanic = new Mechanic();
+        mechanic.repair(carReference);
+        System.out.println("Total Distance after repaire:" + carReference.totalTravelDistance);
 
-
-
-       Car car2 = new Car();
+        Car car2 = new Car();
        car2.make = "Mercedes";
        car2.model = "CLS";
        car2.color = "red";
 
         double car2Distance = car2.accelerate(120, 3);
+
 
 
         car2.make = carReference.make;
