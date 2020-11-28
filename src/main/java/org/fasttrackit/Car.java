@@ -1,19 +1,11 @@
 package org.fasttrackit;
 
-public class Car {
-    String make;
-    String model;
-    String color;
+public class Car extends AutoVehicle{
 
-    double mileage;
-    double fuellevel;
-    double maxSpeed;
-    double totalTravelDistance;
-    boolean damaged;
     int doorCount;
 
-    Engine engine;
-    
+
+
 
 
 }

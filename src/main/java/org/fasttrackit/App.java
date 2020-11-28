@@ -17,6 +17,12 @@ public class App
         carReference.color ="black";
         carReference.maxSpeed = 300;
 
+       Engine engine1 = new Engine();
+       engine1.manufacturer = "VW";
+       engine1.capacity = 1900;
+
+       carReference.engine = engine1;
+
         System.out.println(carReference.make);
         System.out.println(carReference.model);
         System.out.println(carReference.mileage);
@@ -33,4 +39,5 @@ public class App
 
 
     }
+
 }
