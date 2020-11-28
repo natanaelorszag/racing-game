@@ -23,18 +23,9 @@ public class App
 
        carReference.engine = engine1;
 
-        System.out.println(carReference.make);
-        System.out.println(carReference.model);
-        System.out.println(carReference.mileage);
-        System.out.println(carReference.fuellevel);
-        System.out.println(carReference.color);
-        System.out.println(carReference.maxSpeed);
+       carReference.accelerate(250, 2);
 
 
-         Car car2 = new Car();
-         car2.make = "Mercedes";
-         car2.model ="CLS";
-         car2.color ="blue";
 
 
 
