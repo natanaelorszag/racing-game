@@ -23,7 +23,20 @@ public class App
 
        carReference.engine = engine1;
 
-       carReference.accelerate(250, 2);
+       double currentDistance = carReference.accelerate(250, 2);
+
+
+
+       Car car2 = new Car();
+       car2.make = "Mercedes";
+       car2.model = "CLS";
+       car2.color = "red";
+
+        double car2Distance = car2.accelerate(120, 3);
+
+
+        car2.make = carReference.make;
+
 
 
 
